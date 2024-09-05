@@ -11,7 +11,10 @@ print("Do you wanna go to school today?")
 print("Yes or No")
 quest1 = input('')
 if quest1 == "yes":
-  input('Good!')
+  print("Good!")
+  print("Dear user")
+  print("This is end of alpha-1.0")
+  input('')
 elif quest1 == "no":
   print("Bad Ending")
   print("You got grounded..")
