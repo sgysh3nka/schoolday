@@ -1,6 +1,6 @@
 import time
 
-print("THIS GAME IN ALPHA")
+print("THIS GAME IN BETA")
 print("THIS GAME CAN CONTAINS BUGS")
 time.sleep(5)
 print("Welcome to SchoolDay!")
@@ -26,7 +26,7 @@ if quest1 == "yes":
     input('You: Bye!')
     input('Jessica: Bye, bye, ugly boy')
     print('Do you wanna go to GYM to be beautiful or rizz up Jessica?')
-    quest3 = input('gym or rizz? ')
+    quest3 = input('gym or rizz or kidnap? ')
     if quest3 == "gym":
       input('You going to GYM..')
       input('You decided to pump up your muscles and abs..')
@@ -45,6 +45,18 @@ if quest1 == "yes":
       print("yay gf")
       time.sleep(2)
       print("RIZZLER!!")
+      time.sleep(0.9)
+    elif quest3 == "kidnap":
+      input('You kidnapped Jessica..')
+      input('Jessica: WHAT THE HELL WRONG WITH YOU?!?')
+      input("You put a gag in Jessica's mouth..")
+      input('You put Jessica in the basement..')
+      input('You torture Jessica every day..')
+      input('But you got arrested by Police..')
+      print("Kidnap Ending")
+      print("Why you kidnapped Jessica, lil bro?")
+      time.sleep(2)
+      print("STILL NO GF???")
       time.sleep(0.9)
     else:
       input('Error')
