@@ -1,3 +1,4 @@
+# Beta 1.1
 import time
 
 print("THIS GAME IN BETA")
@@ -26,7 +27,7 @@ if quest1 == "yes":
     input('You: Bye!')
     input('Jessica: Bye, bye, ugly boy')
     print('Do you wanna go to GYM to be beautiful or rizz up Jessica?')
-    quest3 = input('gym or rizz or kidnap? ')
+    quest3 = input('gym or rizz or kidnap or something..? ')
     if quest3 == "gym":
       input('You going to GYM..')
       input('You decided to pump up your muscles and abs..')
@@ -58,6 +59,9 @@ if quest1 == "yes":
       time.sleep(2)
       print("STILL NO GF???")
       time.sleep(0.9)
+  elif quest3 == "something":
+      input('You killed yourself..')
+      input('Why?..')
     else:
       input('Error')
   elif quest2 == "no":
